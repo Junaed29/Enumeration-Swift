@@ -39,13 +39,13 @@ for platform in SocialPlatform.allCases{
 }
 
 
-//MARK: - Associated Vcalue Example
+//MARK: - Associated Value Example
 func getSponsorshipEligibility(for platform: SocialMediaPlatform){
     switch platform {
     case .twitter(let followers) where followers >= 10_000:
         print("Eligable for sponsored Tweet")
         
-    case .youtube(let subscriber) where subscriber >= 30_000 :
+    case .youtube(let subscriber) where subscriber >=  30_000 :
         print("Eligable for sponsored Video")
         
     case .instragram, .linkedIn, .twitter, .youtube:
@@ -55,3 +55,9 @@ func getSponsorshipEligibility(for platform: SocialMediaPlatform){
 
 
 getSponsorshipEligibility(for: .twitter(followers: 10000))
+
+
+//MARK: - More Associated Value Example
+
+let grGretting = Greeting.german(period: .morning).value
+print(grGretting)

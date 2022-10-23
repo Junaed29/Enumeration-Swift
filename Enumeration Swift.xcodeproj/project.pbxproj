@@ -11,6 +11,7 @@
 		E414CB4329054FE50097F417 /* SocialPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB4229054FE50097F417 /* SocialPlatform.swift */; };
 		E414CB45290551230097F417 /* UrlConstasnt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB44290551230097F417 /* UrlConstasnt.swift */; };
 		E414CB47290556350097F417 /* SocialMediaPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB46290556350097F417 /* SocialMediaPlatform.swift */; };
+		E414CB49290574640097F417 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB48290574640097F417 /* Greeting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		E414CB4229054FE50097F417 /* SocialPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPlatform.swift; sourceTree = "<group>"; };
 		E414CB44290551230097F417 /* UrlConstasnt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlConstasnt.swift; sourceTree = "<group>"; };
 		E414CB46290556350097F417 /* SocialMediaPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaPlatform.swift; sourceTree = "<group>"; };
+		E414CB48290574640097F417 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				E414CB4229054FE50097F417 /* SocialPlatform.swift */,
 				E414CB44290551230097F417 /* UrlConstasnt.swift */,
 				E414CB46290556350097F417 /* SocialMediaPlatform.swift */,
+				E414CB48290574640097F417 /* Greeting.swift */,
 			);
 			path = "Enumeration Swift";
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				E414CB47290556350097F417 /* SocialMediaPlatform.swift in Sources */,
 				E414CB45290551230097F417 /* UrlConstasnt.swift in Sources */,
 				E414CB3C290529260097F417 /* main.swift in Sources */,
+				E414CB49290574640097F417 /* Greeting.swift in Sources */,
 				E414CB4329054FE50097F417 /* SocialPlatform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
