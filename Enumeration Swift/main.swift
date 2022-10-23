@@ -59,5 +59,5 @@ getSponsorshipEligibility(for: .twitter(followers: 10000))
 
 //MARK: - More Associated Value Example
 
-let grGretting = Greeting.german(period: .morning).value
+let grGretting = Greeting.hello.value
 print(grGretting)

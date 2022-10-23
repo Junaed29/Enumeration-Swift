@@ -10,6 +10,7 @@ import Foundation
 enum Greeting {
     case spanish(period: SpanishGreeting)
     case german(period: GermanGreeting)
+    case hello
     
     var value: String{
         switch self {
@@ -17,6 +18,8 @@ enum Greeting {
             return period.rawValue
         case .german(let period):
             return period.rawValue
+        case .hello:
+            return "Heyy Brother"
         }
     }
 }
