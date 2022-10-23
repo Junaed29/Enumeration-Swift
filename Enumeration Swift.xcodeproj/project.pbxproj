@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E414CB3C290529260097F417 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB3B290529260097F417 /* main.swift */; };
+		E414CB4329054FE50097F417 /* SocialPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB4229054FE50097F417 /* SocialPlatform.swift */; };
+		E414CB45290551230097F417 /* UrlConstasnt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB44290551230097F417 /* UrlConstasnt.swift */; };
+		E414CB47290556350097F417 /* SocialMediaPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414CB46290556350097F417 /* SocialMediaPlatform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		E414CB38290529260097F417 /* Enumeration Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Enumeration Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E414CB3B290529260097F417 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E414CB4229054FE50097F417 /* SocialPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPlatform.swift; sourceTree = "<group>"; };
+		E414CB44290551230097F417 /* UrlConstasnt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlConstasnt.swift; sourceTree = "<group>"; };
+		E414CB46290556350097F417 /* SocialMediaPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaPlatform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				E414CB3B290529260097F417 /* main.swift */,
+				E414CB4229054FE50097F417 /* SocialPlatform.swift */,
+				E414CB44290551230097F417 /* UrlConstasnt.swift */,
+				E414CB46290556350097F417 /* SocialMediaPlatform.swift */,
 			);
 			path = "Enumeration Swift";
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E414CB47290556350097F417 /* SocialMediaPlatform.swift in Sources */,
+				E414CB45290551230097F417 /* UrlConstasnt.swift in Sources */,
 				E414CB3C290529260097F417 /* main.swift in Sources */,
+				E414CB4329054FE50097F417 /* SocialPlatform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
